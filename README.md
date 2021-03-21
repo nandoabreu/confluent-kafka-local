@@ -3,8 +3,8 @@
 A simple localhost running Apache Kafka implementation using confluent-kafka.
 
 This implementation is based on [Confluent's Quick Start using Docker](https://docs.confluent.io/platform/current/quickstart/ce-docker-quickstart.html), 
-but I needed a lighter version for my development/study and with access from my host machine (I didn't want to 
-deploy another container for my development) without messing my machine. [This article by Robin
+but I needed a lighter version for my development/study and with access from my host (I didn't want 
+an extra container) without messing my machine. [This article by Robin
 Moffatt](https://www.confluent.io/blog/kafka-client-cannot-connect-to-broker-on-aws-on-docker-etc/) 
 helped to understand communication between Zookeeper (configurations) and Kafka Broker.
 
