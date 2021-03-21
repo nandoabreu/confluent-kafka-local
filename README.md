@@ -11,13 +11,15 @@ helped to understand communication between Zookeeper (configurations) and Kafka 
 ## Requirements
 - Docker  
 - Python 3.8+  
-- Python Poetry (or install packages with pip: check `[tool.poetry.dependencies]` in [PyProject file](pyproject.toml))
+- Python Poetry (required for tests)  
 - My [http-web-server-json](https://github.com/nandoabreu/http-web-server-json) (optional)
 
 ## Initiate
 
 ```
 make run-kafka
+
+make install
 make test-produce
 make test-consume
 ```
